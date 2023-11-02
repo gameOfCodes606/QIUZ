@@ -1,0 +1,82 @@
+body{
+    height: 70vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:rgb(194, 129, 255);
+    
+}
+h1 , h2, h3, h4{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 30vh;
+    width: 60vw;
+    background-color: rgb(30, 16, 65);
+    margin: 20px auto;
+}
+
+#question{
+    border-bottom:  3px solid rgb(163, 156, 156);
+    height: 10vh;
+    color: rgb(210, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    text-align: center;
+    margin-top: 200px;
+}
+#optionsContainer{
+    color: rgb(210, 204, 204);
+    display: flex;
+    flex-direction: column;
+    /* jus */
+    /* grid-gap: 30px; */
+}
+.row{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+.option{
+    text-align: center;
+    font-size: 1.5em;
+    width: 40%;
+    background-color: rgb(124, 41, 192);
+}
+.option:hover{
+    color: black;
+    background-color: gold;
+}
+
+#nextButton{
+    background-color: rgb(67, 67, 239);
+    margin-top: 20vh;
+    margin-left: 90vw;
+    font-size: 1.5em;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 7px;
+}
+.scoreCard{
+    text-align: center;
+    font-size: 1.5em;   
+}
+
+#correct{
+    background-color: green;
+}
+#wrong{
+    background-color: crimson;
+}
+
+.text{
+    margin: 20vh 0;
+    text-align: center;
+}
+
